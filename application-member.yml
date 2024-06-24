@@ -1,4 +1,4 @@
 datasource:
   driver-class-name: com.mysql.cj.jdbc.Driver
-  url: jdbc:member-db://mydb:3306/fluence
+  url: jdbc:mysql://member-db:3306/fluence
   username: root
