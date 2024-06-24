@@ -1,4 +1,5 @@
-datasource:
-  driver-class-name: com.mysql.cj.jdbc.Driver
-  url: jdbc:mysql://platform-db:3306/fluence
-  username: root
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://platform-db:3306/fluence
+    username: root
