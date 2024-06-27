@@ -3,3 +3,12 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://member-db:3306/fluence
     username: root
+  session:
+    redis:
+      namespace: login:session
+  
+server:
+  servlet:
+    session:
+      timeout: 1800
+      
