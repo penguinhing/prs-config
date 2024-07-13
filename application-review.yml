@@ -3,3 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://review-db:3306/fluence
     username: root
+    write:
+      url: jdbc:mysql://master-db:3307/fluence
+    read:
+      url: jdbc:mysql://slave-db:3308/fluence
